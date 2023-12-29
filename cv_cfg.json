@@ -1,0 +1,15 @@
+{
+  "face_recognition_cfg": {
+    "det_cfg": {
+      "engine_path": "/home/fsw/Documents/codes/infer_sdk/models/trt/scrfd_2.5g_bnkps.trt",
+      "conf_thr": 0.5,
+      "nms_thr": 0.5,
+      "type": "SCRFD"
+    },
+    "feat_cfg": {
+      "engine_path": "/home/fsw/Documents/codes/infer_sdk/models/trt/ms1mv3_arcface_r50_fp16.trt",
+      "type": "ARCFACE"
+    },
+    "feat_database_path" : "/home/fsw/Documents/codes/infer_sdk/feat_database.bin"
+  }
+}
